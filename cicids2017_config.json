@@ -1,0 +1,145 @@
+{
+  "config": {
+    "timezone_offset_hours": 3
+  },
+  "attacks": {
+    "ftp_patator": {
+      "start_time": "04/07/2017 09:17:00 AM",
+      "end_time": "04/07/2017 10:30:00 AM",
+      "attacker": [
+        "172.16.0.1"
+      ],
+      "victim": [
+        "192.168.10.50"
+      ],
+      "label": 1
+    },
+    "ssh_patator": {
+      "start_time": "04/07/2017 01:00:00 PM",
+      "end_time": "04/07/2017 04:11:00 PM",
+      "attacker": [
+        "172.16.0.1"
+      ],
+      "victim": [
+        "192.168.10.50"
+      ],
+      "label": 2
+    },
+    "slowloris": {
+      "start_time": "05/07/2017 02:23:00 AM",
+      "end_time": "05/07/2017 10:12:59 AM",
+      "attacker": [
+        "172.16.0.1"
+      ],
+      "victim": [
+        "192.168.10.50"
+      ],
+      "label": 3
+    },
+    "dos_slowhttptest": {
+      "start_time": "05/07/2017 10:13:00 AM",
+      "end_time": "05/07/2017 10:38:00 AM",
+      "attacker": [
+        "172.16.0.1"
+      ],
+      "victim": [
+        "192.168.10.50"
+      ],
+      "label": 4
+    },
+    "dos_hulk": {
+      "start_time": "05/07/2017 10:39:00 AM",
+      "end_time": "05/07/2017 11:09:00 AM",
+      "attacker": [
+        "172.16.0.1"
+      ],
+      "victim": [
+        "192.168.10.50"
+      ],
+      "label": 5
+    },
+    "dos_goldeneye": {
+      "start_time": "05/07/2017 11:10:00 AM",
+      "end_time": "05/07/2017 11:23:00 AM",
+      "attacker": [
+        "172.16.0.1"
+      ],
+      "victim": [
+        "192.168.10.50"
+      ],
+      "label": 6
+    },
+    "heartbleed": {
+      "start_time": "05/07/2017 03:11:00 PM",
+      "end_time": "05/07/2017 03:33:00 PM",
+      "attacker": [
+        "172.16.0.1"
+      ],
+      "victim": [
+        "192.168.10.51"
+      ],
+      "dst_port": 444,
+      "label": 7
+    },
+    "web_attack": {
+      "start_time": "06/07/2017 09:10:00 AM",
+      "end_time": "06/07/2017 10:45:00 AM",
+      "attacker": [
+        "172.16.0.1"
+      ],
+      "victim": [
+        "192.168.10.50"
+      ],
+      "label": 8
+    },
+    "inflitration": {
+      "start_time": "06/07/2017 02:15:00 PM",
+      "end_time": "06/07/2017 03:50:00 PM",
+      "attacker": [
+        "192.168.10.8"
+      ],
+      "victim": [
+        "205.174.165.73"
+      ],
+      "label": 9
+    },
+    "botnet": {
+      "start_time": "07/07/2017 09:30:00 AM",
+      "end_time": "07/07/2017 12:59:59 PM",
+      "attacker": [
+        "192.168.10.17",
+        "192.168.10.12"
+      ],
+      "victim": [
+        "52.7.235.158",
+        "52.6.13.28"
+      ],
+      "cond": "205.174.165.73",
+      "src_port": 8080,
+      "dst_port": 8080,
+      "label": 12
+    },
+    "portscan": {
+      "start_time": "07/07/2017 12:30:00 PM",
+      "end_time": "07/07/2017 03:40:00 PM",
+      "attacker": [
+        "172.16.0.1"
+      ],
+      "victim": [
+        "192.168.10.50"
+      ],
+      "label": 13
+    },
+    "ddos": {
+      "start_time": "07/07/2017 03:40:00 PM",
+      "end_time": "07/07/2017 04:30:00 PM",
+      "attacker": [
+        "172.16.0.1"
+      ],
+      "victim": [
+        "192.168.10.50"
+      ],
+      "label": 14
+    }
+  }
+}

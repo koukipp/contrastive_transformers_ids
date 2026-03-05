@@ -1,0 +1,5 @@
+-e git+https://github.com/koukipp/nfstream.git@5c06468c2f85b4844e9b5528984fbc9e727d2343#egg=nfstream
+numpy==1.26.4
+pandas==2.3.1
+scikit-learn==1.7.2
+torch==2.7.1
