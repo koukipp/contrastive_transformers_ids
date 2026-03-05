@@ -5,10 +5,9 @@ This repository contains the source code for the model implementation and data p
 
 For the packet processing pipeline, we use a modified version of the **NFStream** framework, which you can find [here](https://github.com/koukipp/nfstream).
 
-## Installation
+## Setup
 
-1. Clone this repository to your local machine.
-2. Initialize your Python environment and install the required dependencies:
+Initialize your Python environment and install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -72,7 +71,7 @@ python train.py --eval \
 You can deploy the trained model for real-time intrusion detection on a live network interface:
 
 ```bash
-python read_if IFACE_NAME MODEL_PATH_NAME
+python read_if.py IFACE_NAME MODEL_PATH_NAME
 
 ```
 
